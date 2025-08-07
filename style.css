@@ -14,5 +14,5 @@ header {
 
 .nav_lista {
 display: flex;
-
+list-style: none;
 }
