@@ -8,6 +8,10 @@ header {
     width: 100%;
     padding: 20px 8%;
     background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #logo {
@@ -34,6 +38,8 @@ header {
 .nav_item {
      font-size: 25px;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
  .nav_item:hover {
     background-color:rgb(191, 4, 191) ;
@@ -42,10 +48,10 @@ header {
  }
 
  .home {
-    display:flex;
+    display: flex;
     min-height: calc(100vh - 91px);
  }
- 
+
  section {
     width: 100%;
     padding: 20px 8%;
@@ -54,10 +60,10 @@ header {
 
  .titulo {
     font-size: 4rem;
-    color: rgb(4, 238, 43);
+    color: #1d1d1d;
     justify-content: center;
  }
 
  .titulocor {
-    color: limegreen;
+    color: blueviolet;
  }
