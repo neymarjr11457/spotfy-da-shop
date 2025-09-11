@@ -18,6 +18,8 @@ header {
     font-size: 1.5rem;
     color: white;
     font-weight: 600;
+    align-items: center;
+    gap: 8px;
 }
 
 .navbar {
@@ -56,12 +58,14 @@ header {
     width: 100%;
     padding: 20px 8%;
     display: flex;
+    justify-content: center;
  }
 
  .titulo {
     font-size: 4rem;
     color: #1d1d1d;
     justify-content: center;
+    width: 100%;
  }
 
  .titulocor {
@@ -146,6 +150,7 @@ header {
     
     #logo {
         font-size: 1rem;
+
     }
     
     .nav_item {
