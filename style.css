@@ -1,7 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
 
-
+:root {
+    --cor-primaria-1:#0094A3;
+    --cor-primaria-2:#8CFBDE;
+    --cor-primaria-3:#0FFF95;
+    --cor-primaria-4:#06BA63;
+    --cor-primaria-5:#103900;
+}
 
 * {
     margin: 0;
