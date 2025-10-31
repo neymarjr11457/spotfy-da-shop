@@ -82,9 +82,44 @@ header {
     width: 100%;
  }
 
- .titulocor {
-    color: blueviolet;
+ .secao {
+padding-right: 8%;
+padding-top: 2%;
+margin-top: 20px;
  }
+
+ .titilo_section {
+    color: var(--cor-primaria-4);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+
+ .moldura_videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+.video {
+flex: 1 1 30%;
+margin: 10px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+}
+
+.video iframe {
+    width: 100%;
+    white-space: auto;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    border: 4px solid var(--cor-primaria-2);
+}
 
 /* Menu hambúrguer para mobile */
 .menu-toggle {
